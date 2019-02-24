@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gdx_basic_parent/gdx_basic_parent.iml" filepath="$PROJECT_DIR$/gdx_basic_parent/gdx_basic_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gdx_basic_parent/gdx_basic_util/gdx_basic_util.iml" filepath="$PROJECT_DIR$/gdx_basic_parent/gdx_basic_util/gdx_basic_util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gdx_config_service_1922/gdx_config_service_1922.iml" filepath="$PROJECT_DIR$/gdx_config_service_1922/gdx_config_service_1922.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gdx_eureka_server_7001/gdx_eureka_server_7001.iml" filepath="$PROJECT_DIR$/gdx_eureka_server_7001/gdx_eureka_server_7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gdx_parent.iml" filepath="$PROJECT_DIR$/gdx_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gdx_plat_parent/gdx_plat_interface/gdx_plat_interface.iml" filepath="$PROJECT_DIR$/gdx_plat_parent/gdx_plat_interface/gdx_plat_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gdx_plat_parent/gdx_plat_parent.iml" filepath="$PROJECT_DIR$/gdx_plat_parent/gdx_plat_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gdx_plat_parent/gdx_plat_service_8001/gdx_plat_service_8001.iml" filepath="$PROJECT_DIR$/gdx_plat_parent/gdx_plat_service_8001/gdx_plat_service_8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gdx_zuul_server_9527/gdx_zuul_server_9527.iml" filepath="$PROJECT_DIR$/gdx_zuul_server_9527/gdx_zuul_server_9527.iml" />
+    </modules>
+  </component>
+</project>

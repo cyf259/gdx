@@ -1,0 +1,23 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: microservice-zuul-gateway
+    #访问路径http://localhost:9527/microservice-zuul-gateway/employee-provider/employee/login/xx
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+  #在7001中显示为gateway-9527.com
+    instance-id: gateway-9527.com
+    prefer-ip-address: true
+zuul:
+  routes:
+    #访问路径http://localhost:9527/employee-provider/employee/login/xx
+    gdxEmployee.serviceId: employee-provider
+    #将访问路径替换为http://localhost:9527/employee/login/xx或上面的
+    gdxEmployee.path: /**  # 匹配 /xxx开头的请求映射到user-provider服务上
+  #指定访问路径不要前面的只能http://localhost:9527/employee/login/xx
+  ignored-services: "*" #user-provider #忽略直接使用服务名访问  *忽略所有的
+  #prefix: /gdx   # 访问前缀
